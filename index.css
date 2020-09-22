@@ -1,0 +1,43 @@
+#visor {
+    background-color: rgb(221, 221, 221);
+    text-align: right;
+}
+
+table {
+    margin: 0 auto 0 auto;
+}
+
+form fieldset {
+    margin: 10px auto 10px auto;
+    width: 18%;
+    border: solid black 1px;
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+form legend {
+    font-weight: bold;
+}
+
+form input {
+    border: solid black 1px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+form input.num {
+    display: block;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+form input.operador {
+    display: block;
+    width: 35px;
+    height: 30px;
+    background-color: rgb(252, 223, 59);
+    border-radius: 50%;
+}
